@@ -21,7 +21,7 @@ class ScheduleTableViewCell: UITableViewCell {
         }))
         let action1 = UIAlertAction(title: "Default", style: .default) { (action:UIAlertAction) in
             print("You've pressed default");
-                self.present(alertController, animated: true, completion: nil)
+                self.present(UIKit.UIAlertController, animated: true, completion: nil)
     }
 //    let alert = UIAlertController(title: "My Alert", message: "This is an alert.", preferredStyle: .alert)
 //    alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
@@ -29,12 +29,12 @@ class ScheduleTableViewCell: UITableViewCell {
 //    }))
 //    self.present(alert, animated: true, completion: nil)
 //
-    override func awakeFromNib() {
+        func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+        func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
