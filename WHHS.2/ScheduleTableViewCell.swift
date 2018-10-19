@@ -15,6 +15,10 @@ class ScheduleTableViewCell: UITableViewCell {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func buttonPopup(_ sender: UIButton) { UIAlertController(title: "DJ", message: "bio", preferredStyle: .alert)
+        let alert = UIAlertController(title: "My Alert", message: "This is an alert.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+            NSLog("The \"OK\" alert occured.")
+        }))
         let action1 = UIAlertAction(title: "Default", style: .default) { (action:UIAlertAction) in
             print("You've pressed default");
                 self.present(alertController, animated: true, completion: nil)
@@ -36,4 +40,5 @@ class ScheduleTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+}
 }
