@@ -13,17 +13,19 @@
 		98C5A6A02176149A00D37FFC /* WHHS_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98C5A69E2176149A00D37FFC /* WHHS_2.xcdatamodeld */; };
 		98C5A6A22176149B00D37FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C5A6A12176149B00D37FFC /* Assets.xcassets */; };
 		98C5A6A52176149B00D37FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C5A6A32176149B00D37FFC /* LaunchScreen.storyboard */; };
+		B2050A40217A0ED3002B30D2 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2050A3F217A0ED3002B30D2 /* ScheduleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98C5A6942176149900D37FFC /* WHHS.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHHS.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C5A6972176149900D37FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C5A6992176149900D37FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98C5A69C2176149900D37FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98C5A69C2176149900D37FFC /* Base */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98C5A69F2176149A00D37FFC /* WHHS_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WHHS_2.xcdatamodel; sourceTree = "<group>"; };
 		98C5A6A12176149B00D37FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C5A6A42176149B00D37FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98C5A6A62176149B00D37FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2050A3F217A0ED3002B30D2 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleTableViewCell.swift; path = WHHS.2/ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		98C5A68B2176149900D37FFC = {
 			isa = PBXGroup;
 			children = (
+				B2050A3F217A0ED3002B30D2 /* ScheduleTableViewCell.swift */,
 				98C5A6962176149900D37FFC /* WHHS.2 */,
 				98C5A6952176149900D37FFC /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				98C5A6A02176149A00D37FFC /* WHHS_2.xcdatamodeld in Sources */,
 				98C5A69A2176149900D37FFC /* ViewController.swift in Sources */,
+				B2050A40217A0ED3002B30D2 /* ScheduleTableViewCell.swift in Sources */,
 				98C5A6982176149900D37FFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

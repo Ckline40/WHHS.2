@@ -69,14 +69,24 @@
                                             <rect key="frame" x="164" y="7" width="46" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="Button:" destination="04J-Gu-hTa" eventType="touchUpInside" id="JT7-af-gP4"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="image" destination="EPX-Ej-28g" id="Sfd-lt-caO"/>
+                                    <outlet property="label" destination="lkA-6w-hct" id="2aP-Su-s75"/>
+                                    <outlet property="text" destination="l92-aZ-jJH" id="6Ds-HK-sdP"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
+                            <outlet property="button" destination="04J-Gu-hTa" id="UcP-U2-NME"/>
                             <outlet property="dataSource" destination="VDD-cD-tGB" id="iOH-T9-S44"/>
                             <outlet property="delegate" destination="VDD-cD-tGB" id="Jtv-7b-n2C"/>
+                            <outlet property="textbox" destination="04J-Gu-hTa" id="OIa-TW-MVa"/>
                         </connections>
                     </tableView>
                 </tableViewController>
